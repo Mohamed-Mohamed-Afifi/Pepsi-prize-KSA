@@ -1,0 +1,67 @@
+.form-control.is-valid, .was-validated .form-control:valid
+{
+    background-image: url(data:image/png;base64,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)!important;
+}
+.form-control.is-valid, .was-validated .form-control:valid
+{
+border:.1rem solid #74c9bc!important;
+}
+.modal-dialog
+{
+    max-width: 571px;
+}
+.close
+{
+    opacity: 1;
+}
+.modal-content
+{
+    position: relative;
+}
+.right-background
+{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    right: 0;
+    top:0;
+    z-index: 20;
+}
+.left-background
+{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: 0;
+    top:16px;
+    z-index: 20;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{
+
+} 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    html
+    {
+        font-size: 12px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) 
+{ 
+    html
+    {
+        font-size: 12px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

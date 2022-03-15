@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/boot4.css">
+    <link rel="stylesheet" href="css/boot10.css">
+    <link rel="stylesheet" href="css/boot13.css">
+    <link rel="stylesheet" href="css/boot14.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    <title>pepsi</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="data:image/png;base64,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" alt="" width="40" height="40"/></a>
+                <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">اكسب مع بيبسي <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">استخدام الكود</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">عن البرنامج</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">الشروط والأحكام</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">الأسئلة المتكررة</a>
+                    </li>
+                    <li class="nav-item log d-flex mr-3 align-items-center">
+                      <a class="nav-link pl-0" href="#"><span class="icon-holder" data-badge="5"><img src="images/unnamed.png" alt="" width="40" height="40" class="img-fluid"></span></a>
+                      <div>
+                      <a class="nav-link pr-0 mx-1 language-button"data-toggle="collapse" data-target="#demo2">احمد عبد الرحمن</a>
+                      <ul id="demo2" class="collapse speech-bubble pr-0">
+                        <li class="my-2"><img src="images/gift (1).png" alt="" class="img-fluid mx-2"width="20px" height="20px">الهدايا السابقة</li>
+                        <li class="my-2"><img src="images/turn-off.png" alt="" class="img-fluid mx-2"width="20px" height="20px"/>تسجيل الخروج</li>
+                      </ul>
+                    </div>
+                    </li>
+                  </div>
+                </ul>
+                <div>
+                <button class="nav-link language-button mr-auto"data-toggle="collapse" data-target="#demo">
+                  <img src="images/images (1).png" alt="language" class="img-fluid mx-1">
+                  العربيه</button>
+                  <ul id="demo" class="collapse speech-bubble pr-0">
+                    <li class="my-2"><img src="images/images (1).png" alt="" class="img-fluid mx-2"width="20px" height="20px">العربيه</li>
+                    <li class="my-2"><img src="images/703-7036858_round-uk-flag-icon-hd-png-download.png" alt="" class="img-fluid mx-2"width="20px" height="20px"/>الانجليزيه</li>
+                  </ul>
+                </div>
+            </div>
+          </nav>
+        </header>
+<!--Carousel-->
+<div class="banner">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/3.png" class="d-block  w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://pepsiprize.com/static/media/banner-7.e39041d5.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://pepsiprize.com/static/media/banner-2.563886f1.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="card text-right">
+                    <div class="card-body text-center text-lg-right px-0">
+                      <h5 class="card-title mb-4">ادخل الكود</h5>
+                      <p class="card-text mb-4">قم بإدخال الكود الموجود علي غطاء عبوة بيبسي لتحصل علي هديتك الفورية الآن</p>
+                      <div class="card-foot justify-content-center justify-content-lg-start">
+                        <input type="text" placeholder="ادخل الكود هنا" class="card-input">
+                      <button class="btn btn-primary card-button mx-2">ارسال الكود</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="card">
+                <div class="row">
+                        <div class="card-body col-12 d-flex justify-content-center align-items-center">
+                          <div class="col-md-4 pr-0">
+                            <h5 class="card-title pl-0">الكود الخاص بك تحت هذا الغطاء</h5>
+                          </div>
+                          <div class="col-md-4 pr-0">
+                            <img src="images/Image 2.png" class="card-img" alt="...">
+                          </div>
+                      </div>
+                </div>
+              </div>
+         </div>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-lg-6 mb-4">
+              <div class="card text-right">
+                  <div class="card-body text-center text-lg-right">
+                    <h5 class="card-title mb-4">المستوي الحالي</h5>
+                    <p class="card-text mb-4">انت حاليا في المستوي الثالث ولديك هدية يمكنك الاستمتاع بها الآن او انتظر للمستوي القادم بهدية اكبر</p>
+                </div>
+                <div class="card2 col-10 px-0 ml-auto mr-auto ml-lg-auto mr-lg-3">
+                  <div class="card-header">
+                    <ul class="navbar-nav2 d-flex">
+                        <div class="container d-flex justify-content-center align-items-center">
+                          <li class="nav-item2">
+                            <a class="nav-link2" href="#">%2٠</a>
+                          </li>
+                          <li class="nav-item2">
+                            <a class="nav-link3" href="#">خصم من تطبيق بيبسي</a>
+                          </li>
+                          <li class="nav-item2 mr-auto">
+                            <a class="nav-link4" href="#"><img src="data:image/png;base64,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" alt="" class="img-fluid" width="50" height="50"></a>
+                          </li>
+                      </div>
+                    </ul>
+                  </div>
+                  <div class="card-body d-flex align-items-center justify-content-start">
+                    <i class="fas fa-lock card-icon"></i>
+                    <p class="card-text2 mb-0">هذا العرض اصبح متاحا لك</p>
+                    <button class="btn btn-primary card-button mr-auto">احصل علي العرض</button>
+                  </div>
+                </div>
+          </div>
+      </div>
+      <div class="col-12 col-lg-6">
+          <div class="card">
+              <div class="row">
+                      <div class="card-body col-12 d-flex justify-content-center align-items-center p-0">
+                        <div class="col-md-4 pr-0">
+                          <h5 class="card-title pl-0">الكود الخاص بك تحت هذا الغطاء</h5>
+                        </div>
+                        <div class="col-md-4 pr-0">
+                          <img src="images/e61e6c3b029681cf917d5e5b791c9251.png" class="card-img" alt="...">
+                        </div>
+                    </div>
+              </div>
+            </div>
+       </div>
+  </div>
+</div>
+</div>
+<div class="content">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-lg-6 mb-4">
+              <div class="card text-right">
+                  <div class="card-body text-center text-lg-right">
+                    <h5 class="card-title mb-4">كيفية استخدام الجوائز</h5>
+                    <ul class="card-list px-0">
+                      <li class="mb-4">يوجد كود مطبوع تحت غطاء العلبة</li>
+                      <li class="mb-4">أدخل الكود المطبوع و إضغط على زر إرسال الكود</li>
+                      <li class="">تم إضافة الكود الجديد إلى حسابك</li>
+                    </ul>
+                </div>
+          </div>
+      </div>
+      <div class="col-12 col-lg-6 d-flex">
+          <div class="card col-12">
+              <div class="row">
+                      <div class="card-body col-12 d-flex justify-content-center align-items-center">
+                        <div class="col-12">
+                          <img src="https://img.icons8.com/color/48/000000/gift-card.png"width="100" height="100">
+                        </div>
+                    </div>
+              </div>
+            </div>
+       </div>
+  </div>
+</div>
+</div>
+<!--Footer-->
+  <div class="footer text-center">
+    <div class="container">
+        <img src="data:image/png;base64,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" alt="" class="img-fluid mb-4">
+        <h3 class="footer-heading mb-4">جوائز بيبسي ٢٠٢٠</h3>
+        <h3 class="footer-sub-heading">جميع الحقوق محفوظه</h3>
+    </div>
+  </div>
+  <div class="jumbotron col-6">
+    <h1 class="display-5">خصم 20% من</h1>
+    <p class="lead">دجاج كنتاكي</p>
+  </div>
+  <!--Pop-up-->
+  <!-- Modal -->
+  <div class="modal fade px-0" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content col-12 d-flex flex-sm-row flex-column text-center mx-auto">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="right-side text-center my-sm-4 col-sm-6 mx-auto">
+        <div class="modal-header border-bottom-0">
+          <h5 class="modal-title my-2">مبروك ربحت مع بيبسي</h5>
+          <p class="modal-sub-title">خصم من دجاج كنتاكي</p>
+        </div>
+        <div class="modal-body text-center px-0 py-0 mx-auto">
+            <div class="pop-img">
+            <img src="images/shutterstock_1030221877.png" alt="" class="img-fluid mb-4">
+            <div class="img-caption">
+            <div class="text-muted">خصم 20% من</div>
+            <div class="img-cap">دجاج كنتاكي</div>
+            </div>
+            </div>
+          <h3 class="account-heading mb-2 col-12">كود الهدية</h3>
+          <p class="account-sub-heading mb-4 col-8">87452597</p>
+          <div class="right-half-ball rounded-circle bg-dark"></div>
+          
+        </div>
+        <div class="modal-footer  mb-4 px-0 pt-4 pb-0 col-10 mx-auto text-center">
+            <h5 class="footer-title mb-3">طريقة استخدام الكود</h5>
+            <p class="footer-sub-title">برجاء كتابة الكود واظهارة للكاشير في المطعم للإستفادة من الهدية</p>
+        </div>
+        <div class="dividers mb-4">
+            <div class="divider-line"></div>
+            <p class="text-muted mx-2 mb-2">تطبق الشروط والأحكام</p>
+            <div class="divider-line"></div>
+        </div>
+        </div>
+        <div class="left-side d-flex justify-content-center align-items-center text-center flex-column my-sm-4 col-sm-6 mx-auto">
+          <div class="modal-header border-bottom-0">
+            <h5 class="modal-title my-2">لقد جمعت ٣ عبوات</h5>
+            <p class="modal-sub-title">وتستحق الآن اختيار هدية</p>
+          </div>
+          <div class="modal-body text-center px-0 py-0 mx-auto">
+            <div class="card2  mb-4">
+              <div class="card-header">
+                <ul class="navbar-nav2 d-flex">
+                    <div class="container d-flex justify-content-center align-items-center px-0 py-1">
+                        <div class="d-flex flex-column align-items-start text-white">
+                        <li class="nav-item2">
+                         <a class="nav-link3" href="#">30%</a>
+                        </li>
+                      <li class="nav-item2">
+                        <a class="nav-link3" href="#">خصم من تطبيق كنتاكي</a>
+                      </li>
+                    </div>
+                      <li class="nav-item2 mx-1">
+                        <a class="nav-link4" href="#"><img src="images/download.png" alt="" class="img-fluid rounded-circle mx-1 header-img" width="" height=""></a>
+                      </li>
+                  </div>
+                </ul>
+              </div>
+              <div class="card-body d-flex align-items-center justify-content-start">
+                <button class="btn btn-primary card-button mx-auto">احصل علي العرض</button>
+              </div>
+            </div>
+            <h3 class="modal-title mb-2 col-12">طريقة استخدام الكود</h3>
+            <p class="account-sub-heading mb-2 col-9">برجاء كتابة الكود وإدخالة علي تطبيق بيبسي للإستفادة من الهدية</p>
+            <div class="left-half-ball rounded-circle bg-dark"></div>
+          </div>
+          <div class="modal-footer  mb-4 px-0 pt-4 pb-0 col-10 mx-auto text-center">
+              <h5 class="footer-title mb-3">يمكنك استبدال 3 كود الآن</h5>
+              <p class="footer-sub-title">او تجميع ٣ عبوات اخري للفوز بهدية اكبر</p>
+          </div>
+          <button type="button" class="btn btn-danger mb-4 left-button">انتظر وجمع اكتر</button>
+          <div class="dividers mb-4">
+              <div class="divider-line"></div>
+              <p class="text-muted mx-2 mb-2">تطبق الشروط والأحكام</p>
+              <div class="divider-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $('#exampleModal').modal('show');
+        });
+      </script>
+  </body>
+</html>

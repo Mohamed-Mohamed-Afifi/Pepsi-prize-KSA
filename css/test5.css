@@ -1,0 +1,47 @@
+.cards-section .head1 
+{
+    background: transparent linear-gradient(249deg, #AA0B1C 0%, #9F161E 100%) 0% 0% no-repeat padding-box;
+}
+.cards-section .head2
+{
+    background: transparent linear-gradient(249deg, #EC1B24 0%, #65171B 100%) 0% 0% no-repeat padding-box;
+}
+.cards-section .head3
+{
+    background: transparent linear-gradient(249deg, #2BA6E1 0%, #B531BC 100%) 0% 0% no-repeat padding-box;
+}
+.cards-section .head4
+{
+    background: transparent linear-gradient(249deg, #00D06A 0%, #019FE4 100%) 0% 0% no-repeat padding-box;
+}
+.modal .nav-link3 
+{
+    font-size: .7rem;
+}
+.modal-dialog
+{
+    max-width: 904px;
+    overflow: hidden;
+}
+.modal-card .card-header 
+{
+    padding: 1rem .1rem;
+}
+.half-right-ball
+{
+    position: absolute;
+    top:40%;
+    right: -29px;
+    width: 4rem;
+    height: 4rem;
+    background-color: black!important;
+}
+.half-left-ball 
+{
+    position: absolute;
+    top: 40%;
+    left: -29px;
+    width: 4rem;
+    height: 4rem;
+    background-color: black!important;
+}

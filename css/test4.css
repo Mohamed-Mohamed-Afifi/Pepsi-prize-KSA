@@ -1,0 +1,16 @@
+.left-side .card-header
+{
+    background: transparent linear-gradient(254deg, #427DBE 0%, #233752 100%) 0% 0% no-repeat padding-box;
+}
+.left-side .modal-body
+{
+    border-bottom: 1px solid #70707045;
+}
+.left-side .nav-link3
+{
+    font-size: .7rem!important;
+}
+.left-side .divider-line
+{
+    width: 2.5rem;
+}

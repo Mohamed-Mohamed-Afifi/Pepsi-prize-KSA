@@ -1,0 +1,30 @@
+.left-side .card-header
+{
+    background: transparent linear-gradient(254deg, #D53F4F 0%, #9F161E 100%) 0% 0% no-repeat padding-box;
+}
+.navbar-list
+{
+    list-style-type: none;
+}
+.half-right-ball
+{
+    position: absolute;
+    top:45%;
+    right: -29px;
+    width: 4rem;
+    height: 4rem;
+    background-color: black!important;
+}
+.half-left-ball 
+{
+    position: absolute;
+    top: 45%;
+    left: -29px;
+    width: 4rem;
+    height: 4rem;
+    background-color: black!important;
+}
+.modal-dialog
+{
+    overflow: hidden;
+}

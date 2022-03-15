@@ -1,0 +1,83 @@
+.breadcrumb-item+.breadcrumb-item::before
+{
+    content: " ";
+}
+.banner-content
+{
+    text-align: right;
+}
+.breadcrumb
+{
+    background: none;
+    font-size: 1.2rem;
+}
+.banner
+{
+    padding: 50px 50px  50px;
+    background: #00000005;
+    width: 100%;
+    font-family: 'Almarai', sans-serif;
+}
+.banner-heading,.banner-sub-heading
+{
+    color:#0165C3!important;
+    font-size:1.3rem;
+    font-weight: 500;
+}
+.banner-sub-heading
+{
+    color:black!important;
+}
+.breadcrumb .fas,.breadcrumb-item.active
+{
+    color:#AFAFAF;
+}
+/*for test*/
+.table
+{
+    text-align: right;
+    font-family: 'Almarai', sans-serif;
+}
+.table td, .table th
+{
+    padding: .75rem 50px .75rem 0px;
+    vertical-align: middle;
+}
+tbody .btn-primary,tbody .btn-primary:hover,tbody .btn-primary:focus,tbody .btn-primary:active
+{
+    border-color: #707070!important;
+    color:#000000!important;
+    background: #F7F7F7 0% 0% no-repeat padding-box!important;
+    box-shadow:none!important;
+    outline: none!important;
+}
+.active-span
+{
+    color:#59A03F;
+}
+.unactive-span
+{
+    color:#505050;
+}
+.times-span
+{
+    color:#C45757;
+}
+.pagination  .page-link
+{
+    border: none;
+    font-size: 1.3rem;
+}
+.page-item.active .page-link
+{
+    background-color: #0165C3;
+}
+.page-item .page-link:hover
+{
+    background-color: #0165C3;
+    color:white
+}
+.page-item .next:hover,.page-item .previous:hover
+{
+    background-color: inherit;
+}

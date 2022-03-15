@@ -1,0 +1,29 @@
+.nav-link
+{
+    margin-right: 0;
+}
+.modal-content
+{
+    width: 100%;
+}
+.modal-dialog
+{
+    max-width: 587px;
+}
+.modal .email-input
+{
+    border-radius: 5px;
+}
+.modal .email-input:focus,.modal .email-input:active,.code-input:active,.code-input:focus
+{
+    border:2px solid #0165C3;
+    outline: none;
+}
+.modal .account-heading
+{
+    color:#0165C3!important;
+}
+.close
+{
+    font-weight: lighter;
+}

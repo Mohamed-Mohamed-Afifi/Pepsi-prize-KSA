@@ -1,0 +1,80 @@
+/*dropdown arrow*/
+.dropdown-toggle::after
+{
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    margin-right: 0px;
+    vertical-align: middle;
+    border-top: .5em solid #0165C3;
+    border-right: .5em solid transparent;
+    border-left: .5em solid transparent; 
+}
+.lang-dropdown
+{
+    background-color: #fff!important;
+    color:#000;
+    border: 2px solid #00000047;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle,.btn-secondary.focus, .btn-secondary:focus
+{
+    background-color: #fff!important;
+    color:#000;
+    border: 2px solid rgb(27 145 249 / 48%);
+    border-radius: 5px;
+    font-size: 1.3rem; 
+    box-shadow: 0 0 0 0.1rem rgb(27 145 249 / 48%)!important;
+}
+.btn-secondary:hover
+{
+    background-color: #fff!important;
+    color:#000;
+    border: 2px solid #00000047;
+    border-radius: 5px;
+    font-size: 1.3rem; 
+}
+.dropdown-menu
+{
+    width: 100%;
+    text-align: right;
+}
+.speech-bubble li
+{
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+}
+.speech-bubble li:hover
+{
+    background-color: #F2F2F2!important;
+}
+.active-link
+{
+    background-color: #F2F2F2!important;
+}
+.dropdown-item:focus, .dropdown-item:hover
+{
+    background-color: #0165c329;
+    color:black;
+}
+.dropdown-item.active, .dropdown-item:active
+{
+    background-color: #0165c329!important;
+    color:black!important;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { .... } 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

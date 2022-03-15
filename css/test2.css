@@ -1,0 +1,124 @@
+/*body image*/
+.image-caption
+{
+    position: relative;
+}
+.img-caption
+{
+    position: absolute;
+    left: 0 !important;
+    text-align: center;
+}
+/*width of modal*/
+.modal-content
+{
+    width: 100%!important;
+}
+.modal-card
+{
+    box-shadow: 0px 3px 10px #00000014;
+}
+.modal-card .card-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-card .nav-link3
+{
+    margin-right: 0;
+}
+.modal-card .card-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-card .card-header
+{
+    padding: 1rem 1.25rem;
+}
+.modal-title,.body-text .body-heading
+{
+    font-size: 1rem;
+}
+
+.left-side .body-text .body-heading
+{
+    color:#0165C3;
+}
+.modal-sub-title,.body-text .body-sub-heading
+{
+    font-size: .8rem;
+}
+.divider-text
+{
+    font-size: .8rem;
+}
+.right-side .body-sub-heading
+{
+    padding: 9px 20px;
+    background: #EDEDED;
+    letter-spacing: 6.6px;
+}
+.modal .card-header .navbar-list
+{
+    list-style-type: none;
+}
+.half-right-ball
+{
+    position: absolute;
+    top:45%;
+    right: -29px;
+    width: 4rem;
+    height: 4rem;
+    background-color: black!important;
+}
+.half-left-ball 
+{
+    position: absolute;
+    top: 45%;
+    left: -29px;
+    width: 4rem;
+    height: 4rem;
+    background-color: black!important;
+}
+.modal-dialog
+{
+    overflow: hidden;
+}
+.modal .close 
+{
+    left: 16px;
+    top: 8px;
+    font-size: 3rem;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{
+  .modal .right-half-ball
+{
+    top: 45%;
+    right: -24px;
+}
+.modal .left-half-ball
+{
+    top: 45%;
+    left: -24px;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{ 
+  .modal .right-half-ball
+{
+    top: 45%;
+    right: -24px;
+}
+.modal .left-half-ball
+{
+    top: 45%;
+    left: -24px;
+}
+}

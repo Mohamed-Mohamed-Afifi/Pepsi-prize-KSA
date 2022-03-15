@@ -1,0 +1,79 @@
+/*four cards*/
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*modal-dialog*/
+.modal-dialog
+{
+    max-width: 961px;
+}
+/*Navlinks*/
+.modal .nav-link3 
+{
+    font-size: .2rem;
+    margin-right: 0px;
+}
+/*width of content of pop up*/
+.modal-content 
+{
+    width: 95%;
+    overflow: hidden;
+}
+/*card1*/
+.modal .card22 .card-header
+{
+    background: transparent linear-gradient(249deg, #EC1B24 0%, #65171B 100%) 0% 0% no-repeat padding-box!important;
+}
+.modal .card3 .card-header
+{
+    background: transparent linear-gradient(249deg, #2BA6E1 0%, #B531BC 100%) 0% 0% no-repeat padding-box!important;
+}
+.modal .card4 .card-header
+{
+    background: transparent linear-gradient(249deg, #00D06A 0%, #019FE4 100%) 0% 0% no-repeat padding-box!important;
+}
+.card1,.card22,.card3,.card4
+{
+    box-shadow: 0px 3px 10px #00000014;
+}
+/*half right ball*/
+.right-half-ball
+{
+    right:-11%;
+    top:50%;
+}
+/*half left ball*/
+.left-half-ball
+{
+    left:-11%;
+    top:50%;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{ 
+/*modal  right and left half-ball*/
+    .right-half-ball,.left-half-ball
+    {
+        display: none;
+    } 
+/*modal left side*/    
+    .modal .left-side
+    {
+        border: none!important;
+    }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px)
+{
+    .right-half-ball,.left-half-ball
+    {
+        display: none;
+    } 
+/*modal left side*/    
+    .modal .left-side
+    {
+        border: none!important;
+    }
+}

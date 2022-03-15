@@ -1,0 +1,67 @@
+.bullet-icon
+{
+    height: 2rem;
+    min-width: 2rem;
+    border-radius: 50%;
+    background-color: #EA0727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+}
+.bullet
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1rem;
+}
+.list-caption
+{
+    font-size: 2rem;
+    color:#0165C3;
+    font-weight: 600;
+}
+.figure-caption
+{
+    font-size: 1rem;
+    color: #0165C3;
+}
+.equal-sign 
+{
+    color:#EA0727;
+}
+.numbered-list
+{
+    border-bottom: 2px solid #ada5a5;
+    font-family: 'Almarai', sans-serif;
+}
+.list-sub-caption
+{
+    background-color: #0000000B;
+    color:#0165C3;
+    font-size: 1.3rem;
+    font-weight: 600
+}
+.bullet-list
+{
+    border-bottom: 2px solid #ada5a5;
+    font-family: 'Almarai', sans-serif;
+}
+.last-list .list-sub-caption 
+{
+    font-size: 1.3rem;
+    background-color: none!important;
+}
+.last-list 
+{
+    font-family: 'Almarai', sans-serif;
+}
+.banner
+{
+    padding: 50px 0  50px;
+    background: #00000005;
+    width: 100%;
+}
+

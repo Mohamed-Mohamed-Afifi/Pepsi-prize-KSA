@@ -1,0 +1,16 @@
+/*color of card header*/
+.modal .card-header
+{
+    background: transparent linear-gradient(254deg, #D53F4F 0%, #9F161E 100%) 0% 0% no-repeat padding-box;
+    padding: 0.45rem .45rem;
+}
+/*modal left card header*/
+.nav-item2
+{
+    margin-right: 0px;
+}
+/* left side card image*/
+.header-img
+{
+    border:1px solid white;
+}

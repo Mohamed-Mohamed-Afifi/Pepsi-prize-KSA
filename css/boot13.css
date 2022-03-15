@@ -1,0 +1,149 @@
+/*modal content*/
+.modal-content
+{
+    display: flex;
+    flex-direction: row;
+}
+/*modal heading*/
+.modal-title
+{
+    font-size: 1rem;
+}
+/*modal sub heading*/
+.modal-sub-title 
+{
+    font-size: .7rem;
+}
+/*modal right half ball*/
+.right-half-ball
+{
+    right: -26%;
+    top: 61%;
+}
+/*modal left half ball*/
+.left-half-ball
+{
+    left: -26%;
+    top: 61%;
+}
+/*modal account-sub-heading*/
+.modal .account-sub-heading
+{
+    font-size: .7rem!important;
+}
+/*modal account-heading*/
+.modal-body .account-heading 
+{
+    font-size: 1rem;
+}
+/*modal footer-sub-heading*/
+.modal .footer-sub-title
+{
+    font-size: .6rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+/*modal footer-heading*/
+.modal .footer-title
+{
+    font-size: .6rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+/*modal text on image*/
+.modal .pop-img
+{
+    position: relative;
+}
+.modal .img-caption
+{
+    left: 6%;
+    font-size: .9rem;
+    top: 20%;
+}
+/*modal left card header links*/
+.modal .nav-item2
+{
+    font-size: .6rem;
+}
+.modal .nav-link3
+{
+    font-size: .8rem;
+}
+.modal .nav-link3:hover
+{
+    text-decoration: none;
+    color:white
+}
+/*modal left card header*/
+.modal .card-header
+{
+    border-radius: none;
+}
+/*modal left card body*/
+.modal .card-body
+{
+    padding: 10px;
+}
+/*modal left button on card body*/
+.modal .card-button
+{
+    font-size: .6rem;
+}
+/*modal left account-sub-heading*/
+.modal .left-side .account-sub-heading
+{
+    padding: 5px;
+    font-size: .7rem;
+    background: none!important;
+    letter-spacing: 0;
+    padding-top: 0;
+}
+/*modal right account-sub-heading*/
+.modal .right-side .account-sub-heading
+{
+    letter-spacing: 3px;
+    padding: 5px 20px;
+}
+/*modal left and right conditions on footer*/
+.modal .left-side .text-muted,.modal .right-side .text-muted
+{
+    font-size: .6rem!important;
+}
+/*modal left section*/
+.modal .left-side
+{
+    border-right: 1px solid #70707045;
+}
+/*modal close button*/
+.modal .close 
+{
+    left: 11px;
+    top: 5px;
+}
+/*modal dialog*/
+.modal-dialog
+{
+    max-width: 650px;
+}
+/*modal  left card-button*/
+.modal .card-button
+{
+    background-color: #0165C3!important;
+}
+/*modal  left footer-button*/
+.modal .left-button
+{
+    background-color: #C20023!important;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{ 
+/*modal left side*/    
+    .left-side
+    {
+        border: none!important;
+    }
+}
+

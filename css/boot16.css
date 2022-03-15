@@ -1,0 +1,38 @@
+.card6 .modal .card-header
+{
+    background: transparent linear-gradient(254deg, #427DBE 0%, #233752 100%) 0% 0% no-repeat padding-box;
+}
+.card6
+{
+    box-shadow: 0px 3px 10px #00000014;
+}
+.modal-body, .modal-footer
+{
+    justify-content: stretch;
+}
+.dividers2
+{
+    border-top: 1px solid #70707045;
+}
+.nav-link3
+{
+    margin-right: 0;
+}
+.left-half-ball 
+{
+    left: -138%;
+    top: 56%;
+}
+.right-half-ball
+{
+    right: -26%;
+    top: 56%;
+}
+.body-section
+{
+    border-bottom: 1px solid #70707045;
+}
+.left-side .modal-body
+{
+    display: block;
+}

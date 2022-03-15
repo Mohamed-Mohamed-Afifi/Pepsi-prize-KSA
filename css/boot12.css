@@ -1,0 +1,48 @@
+.modal-content
+{
+    position: relative;
+}
+.modal .right-half-ball
+{
+    top: 45%;
+    right: -29px;
+}
+.modal .left-half-ball
+{
+    top: 45%;
+    left: -29px;
+}
+.img-caption
+{
+    padding: 5px;
+    font-size: .9rem;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{
+  .modal .right-half-ball
+{
+    top: 45%;
+    right: -24px;
+}
+.modal .left-half-ball
+{
+    top: 45%;
+    left: -24px;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{ 
+  .modal .right-half-ball
+{
+    top: 45%;
+    right: -24px;
+}
+.modal .left-half-ball
+{
+    top: 45%;
+    left: -24px;
+}
+}
